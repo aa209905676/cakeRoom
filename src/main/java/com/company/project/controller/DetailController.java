@@ -3,6 +3,7 @@ package com.company.project.controller;
 import com.alibaba.fastjson.JSONObject;
 import com.company.project.Bean.Iteminfo;
 import com.company.project.service.IteminfoService;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -23,6 +24,7 @@ public class DetailController {
      * @param iid
      * @return JSONObject
      */
+    @ApiOperation(value = "详情控制页")
     @GetMapping(value = "/detail",produces = "application/json;charset=UTF-8")
     public JSONObject getData(@RequestParam("iid") String  iid){
         JSONObject jsonObject = new JSONObject();

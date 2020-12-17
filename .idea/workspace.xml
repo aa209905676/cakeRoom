@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d55b79a-9d7c-4053-8b6c-abecb39b9dbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_smallbun_screw_screw_core_1_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_javaparser_javaparser_core_3_6_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_yedaxia_japidocs_1_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-api-project-seed.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ScrewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/Bean/Iteminfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/Bean/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/Bean/banner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/Bean/context.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/Bean/dKeyword.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/Bean/filter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/Bean/keywords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/Bean/recommend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/configurer/MybatisConfigurer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/configurer/WebMvcConfigurer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/configurer/WebMvcConfigurer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/configurer/WebMvcConfigurer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/controller/DataController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/controller/DetailController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/controller/IteminfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/controller/Recommend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/core/AbstractService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/core/Mapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/core/ProjectConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/core/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/core/ResultCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/core/ResultGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/core/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/core/ServiceException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/dao/IteminfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/service/IteminfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/service/impl/IteminfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/project/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/IteminfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-boot-api-project-seed-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-boot-api-project-seed-1.0.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ScrewTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/demo-user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/generator/template/controller-restful.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/generator/template/controller.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/generator/template/service-impl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/generator/template/service.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/your api docs path/V1.0/apidoc.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/your api docs path/V1.0/apidoc.log.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/project/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/configurer/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/controller/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/project/controller/DataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/controller/DetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/project/controller/DetailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/conpany/project/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conpany/project/Tester.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\apache-maven-3.6.3\maven_Resporty" />
+        <option name="mavenHome" value="E:\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lYCjJ5kb1hD3nxJsgoSrtAYcYl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeGenerator" />
+      <module name="spring-boot-api-project-seed" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScrewTest.testScrew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-api-project-seed" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ScrewTest" />
+      <option name="METHOD_NAME" value="testScrew" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-api-project-seed" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.project.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ScrewTest.testScrew" />
+        <item itemvalue="Application.CodeGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d55b79a-9d7c-4053-8b6c-abecb39b9dbd" name="Default Changelist" comment="" />
+      <created>1607764777902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607764777902</updated>
+      <workItem from="1607764779614" duration="1088000" />
+      <workItem from="1607828719874" duration="61222000" />
+      <workItem from="1608092179142" duration="5307000" />
+      <workItem from="1608125816716" duration="22372000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1608209355954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608209355955</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="406" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608204940792">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="406" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1608204940792" />
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1608208805728">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1608208805728" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608091322253">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608091322253" />
+    <state x="177" y="0" key="CommitChangelistDialog2" timestamp="1608209351101">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="177" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608209351101" />
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1608209085333">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608209085333" />
+    <state width="1323" height="230" key="GridCell.Tab.0.bottom" timestamp="1608214872754">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="230" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608214872754" />
+    <state width="1323" height="230" key="GridCell.Tab.0.center" timestamp="1608214872754">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="230" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608214872754" />
+    <state width="1323" height="230" key="GridCell.Tab.0.left" timestamp="1608214872754">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="230" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608214872754" />
+    <state width="1323" height="230" key="GridCell.Tab.0.right" timestamp="1608214872754">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="230" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608214872754" />
+    <state width="1323" height="230" key="GridCell.Tab.1.bottom" timestamp="1608214872754">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="230" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608214872754" />
+    <state width="1323" height="230" key="GridCell.Tab.1.center" timestamp="1608214872754">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="230" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1608214872754" />
+    <state width="1323" height="230" key="GridCell.Tab.1.left" timestamp="1608214872754">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="230" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1608214872754" />
+    <state width="1323" height="230" key="GridCell.Tab.1.right" timestamp="1608214872754">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="230" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1608214872754" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1608187727592">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1608187727592" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1608092135729">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608092135729" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1608209564394">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608209564394" />
+    <state x="222" y="87" width="921" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1608204686681">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="222" y="87" width="921" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1608204686681" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1608038329254">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1608038329254" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

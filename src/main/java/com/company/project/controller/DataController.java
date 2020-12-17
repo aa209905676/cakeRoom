@@ -2,7 +2,9 @@ package com.company.project.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import io.github.yedaxia.apidocs.ApiDoc;
+
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.web.bind.annotation.*;
@@ -11,7 +13,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 @RestController
 @CrossOrigin
-@Api(tags = "详情页")
+@Api("详情页")
 public class DataController {
 
 
@@ -22,7 +24,8 @@ public class DataController {
      * @param page
      * @return JSONObject
      */
-    @ApiOperation(value = "home/data 首页数据库展示",notes = "我是傻逼")
+    @ApiImplicitParam(name = "name",value = "姓名",required = true)
+    @ApiOperation(value = "详情页展示")
     @GetMapping(value = "/home/data",produces = "application/json;charset=UTF-8")
     public JSONObject getData(@ApiParam("类型") @RequestParam("type") String type,
                               @ApiParam("页数") @RequestParam("page") Integer page){

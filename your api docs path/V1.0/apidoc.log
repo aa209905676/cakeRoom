@@ -1,0 +1,106 @@
+十二月 17, 2020 7:34:51 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find java src paths:  [C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\]
+十二月 17, 2020 7:34:51 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: project type not set, try to figure out...
+十二月 17, 2020 7:34:51 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\
+十二月 17, 2020 7:34:51 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : DataController.java
+十二月 17, 2020 7:34:51 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : DetailController.java
+十二月 17, 2020 7:34:51 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : HomeController.java
+十二月 17, 2020 7:34:51 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : IteminfoController.java
+十二月 17, 2020 7:34:51 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : Recommend.java
+十二月 17, 2020 7:34:51 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : UserController.java
+十二月 17, 2020 7:34:51 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : DataController.java
+十二月 17, 2020 7:34:51 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : DataController.java
+十二月 17, 2020 7:34:51 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : DetailController.java
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : DetailController.java
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : HomeController.java
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\com\company\project\core\Result.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\com\company\project\core\Result.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\com\company\project\core\Result.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\com\company\project\core\Result.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\com\company\project\core\Result.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : HomeController.java
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : IteminfoController.java
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\com\company\project\core\Result.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\com\company\project\core\Result.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\com\company\project\core\Result.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\com\company\project\core\Result.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\com\company\project\core\Result.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : IteminfoController.java
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : Recommend.java
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : Recommend.java
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : UserController.java
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\com\company\project\core\Result.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\com\company\project\core\Result.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\com\company\project\core\Result.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\com\company\project\core\Result.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: we think T should not be an enum type
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! Cannot find java file , in java file : C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\com\company\project\core\Result.java, className : T, we cannot found more information of it, you've better to make it a JavaBean
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : UserController.java
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs start...
+十二月 17, 2020 7:34:52 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : C:\Users\summer\Desktop\spring-boot-api-project-seed\src\main\java\com\company\project\controller\DataController.java

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.IteminfoMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.Bean.Iteminfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="iid" jdbcType="INTEGER" property="iid" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="subtitle" jdbcType="VARCHAR" property="subtitle" />
+    <result column="descr" jdbcType="VARCHAR" property="descr" />
+    <result column="price" jdbcType="DECIMAL" property="price" />
+    <result column="oldPrice" jdbcType="DECIMAL" property="oldprice" />
+    <result column="discountDesc" jdbcType="VARCHAR" property="discountdesc" />
+  </resultMap>
+  <select id="selectByid" resultType="com.company.project.Bean.Iteminfo">
+    select * from iteminfo where iid = #{iid}
+  </select>
+</mapper>
