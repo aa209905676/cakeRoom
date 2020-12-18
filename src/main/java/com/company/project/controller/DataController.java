@@ -245,7 +245,7 @@ public class DataController {
                 show.put("type",type);
                 map.put("show",show);
                 map.put("title","玫瑰色恋人 编号：777205");
-                map.put("iid","111");
+                map.put("iid","001");
                 map.put("price","119.00");
                 map.put("cfav","126");
                 list.add(0,map);
@@ -262,7 +262,7 @@ public class DataController {
                 map1.put("title","女神小七  编号：721006");
                 map1.put("price","119.00");
                 map1.put("cfav","126");
-                map1.put("iid","112");
+                map1.put("iid","002");
                 list.add(1,map1);
 
                 // show2
@@ -276,7 +276,7 @@ public class DataController {
                 map2.put("title","塞纳河畔  编号：777307");
                 map2.put("price","119.00");
                 map2.put("cfav","126");
-                map2.put("iid","113");
+                map2.put("iid","003");
                 list.add(2,map2);
 
 
@@ -291,7 +291,7 @@ public class DataController {
                 map3.put("title","魔法森林  编号：702002");
                 map3.put("price","119.00");
                 map3.put("cfav","126");
-                map3.put("iid","114");
+                map3.put("iid","004");
                 list.add(3,map3);
 
                 // show4
@@ -301,7 +301,7 @@ public class DataController {
                 show4.put("page",page);
                 show4.put("type",type);
                 map4.put("show",show4);
-                map4.put("iid","115");
+                map4.put("iid","005");
                 map4.put("title","玫瑰之约 编号：777348");
                 map4.put("price","119.00");
                 map4.put("cfav","126");
@@ -313,7 +313,7 @@ public class DataController {
                 show5.put("img","https://img.dangao.com/proimgs/703010175228.png");
                 show5.put("page",page);
                 show5.put("type",type);
-                map5.put("iid","116");
+                map5.put("iid","006");
                 map5.put("show",show5);
                 map5.put("title","蓝色爱恋  编号：703010");
                 map5.put("price","199.00");
@@ -326,7 +326,7 @@ public class DataController {
                 show6.put("img","https://img.dangao.com/proimgs/777205175228.jpg");
                 show6.put("page",page);
                 show6.put("type",type);
-                map6.put("iid","117");
+                map6.put("iid","007");
                 map6.put("show",show6);
                 map6.put("title","微微一笑  编号：777106");
                 map6.put("price","119.00");
@@ -340,7 +340,7 @@ public class DataController {
                 show7.put("page",page);
                 show7.put("type",type);
                 map7.put("show",show7);
-                map7.put("iid","118");
+                map7.put("iid","008");
                 map7.put("title","愿得一人心  编号：777201");
                 map7.put("price","119.00");
                 map7.put("cfav","126");
