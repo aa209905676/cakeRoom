@@ -4,10 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d55b79a-9d7c-4053-8b6c-abecb39b9dbd" name="Default Changelist" comment="">
+    <list default="true" id="1d55b79a-9d7c-4053-8b6c-abecb39b9dbd" name="Default Changelist" comment="homeData数据库">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-api-project-seed.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-api-project-seed.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/controller/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/project/controller/DataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/controller/DetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/project/controller/DetailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/project/controller/DataController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/project/controller/DataController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/project/controller/DetailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/project/controller/DetailController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-api-project-seed-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-api-project-seed-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-api-project-seed-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-api-project-seed-1.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CodeGenerator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +77,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
@@ -103,8 +120,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ScrewTest.testScrew" />
         <item itemvalue="Application.CodeGenerator" />
+        <item itemvalue="JUnit.ScrewTest.testScrew" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608279593036</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更新knifet4j">
+      <created>1608280095075</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608280095075</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,77 +168,82 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="更新knifet4j" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新knifet4j" />
+    <MESSAGE value="homeData数据库" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeData数据库" />
   </component>
   <component name="WindowStateProjectService">
     <state x="406" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608204940792">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="406" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1608204940792" />
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1608208805728">
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1608386465796">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1608208805728" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608091322253">
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1608386465796" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608385210094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608091322253" />
-    <state x="177" y="0" key="CommitChangelistDialog2" timestamp="1608279589868">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608385210094" />
+    <state x="177" y="0" key="CommitChangelistDialog2" timestamp="1608387630101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="177" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608279589868" />
+    <state x="177" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608387630101" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1608209085333">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608209085333" />
-    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1608279786813">
+    <state width="1323" height="166" key="GridCell.Tab.0.bottom" timestamp="1608387630298">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608279786813" />
-    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1608279786813">
+    <state width="1323" height="166" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608387630298" />
+    <state width="1323" height="166" key="GridCell.Tab.0.center" timestamp="1608387630298">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608279786813" />
-    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1608279786813">
+    <state width="1323" height="166" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608387630298" />
+    <state width="1323" height="166" key="GridCell.Tab.0.left" timestamp="1608387630297">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608279786813" />
-    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1608279786813">
+    <state width="1323" height="166" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608387630297" />
+    <state width="1323" height="166" key="GridCell.Tab.0.right" timestamp="1608387630298">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608279786813" />
-    <state width="1323" height="176" key="GridCell.Tab.1.bottom" timestamp="1608279786814">
+    <state width="1323" height="166" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608387630298" />
+    <state width="1323" height="166" key="GridCell.Tab.1.bottom" timestamp="1608387630298">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608279786814" />
-    <state width="1323" height="176" key="GridCell.Tab.1.center" timestamp="1608279786813">
+    <state width="1323" height="166" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608387630298" />
+    <state width="1323" height="166" key="GridCell.Tab.1.center" timestamp="1608387630298">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1608279786813" />
-    <state width="1323" height="176" key="GridCell.Tab.1.left" timestamp="1608279786813">
+    <state width="1323" height="166" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1608387630298" />
+    <state width="1323" height="166" key="GridCell.Tab.1.left" timestamp="1608387630298">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1608279786813" />
-    <state width="1323" height="176" key="GridCell.Tab.1.right" timestamp="1608279786814">
+    <state width="1323" height="166" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1608387630298" />
+    <state width="1323" height="166" key="GridCell.Tab.1.right" timestamp="1608387630298">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1608279786814" />
+    <state width="1323" height="166" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1608387630298" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1608187727592">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1608187727592" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1608279858294">
+    <state x="184" y="8" key="SettingsEditor" timestamp="1608281825146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608279858294" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1608279829724">
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608281825146" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1608387651115">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608279829724" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608387651115" />
     <state x="222" y="87" width="921" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1608204686681">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="222" y="87" width="921" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1608204686681" />
+    <state x="459" y="120" key="refactoring.ChangeSignatureDialog" timestamp="1608367493409">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="459" y="120" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1608367493409" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1608038329254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

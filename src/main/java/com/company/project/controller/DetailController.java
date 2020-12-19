@@ -2,8 +2,13 @@ package com.company.project.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.company.project.Bean.Iteminfo;
+import com.company.project.model.Imagelist;
+import com.company.project.model.TopImages;
+import com.company.project.service.ImagelistService;
 import com.company.project.service.IteminfoService;
+import com.company.project.service.TopImagesService;
 import io.swagger.annotations.ApiOperation;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -11,7 +16,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
 @RestController
 @CrossOrigin
@@ -19,6 +26,11 @@ public class DetailController {
     @Resource
     private IteminfoService iteminfoService;
 
+    @Resource
+    private TopImagesService topImagesService;
+
+    @Resource
+    private ImagelistService imagelistService;
     /**
      * 详情页
      * @param iid
@@ -46,12 +58,36 @@ public class DetailController {
         ArrayList<Object> rateList = new ArrayList<>();
 
         if (iid.equals("001")){
+            Integer id = Integer.parseInt(iid);
 
 //            dataInfo
 
-            imageList.add(0,"https://img.dangao.com/proimgs/C-777105desB2.jpg");
-            imageList.add(1,"https://www.dangao.com/Tpl/2016skin/Public/images/5mnew_baozhang.jpg");
-            imageList.add(2,"https://www.dangao.com/Tpl/2016skin/Public/images/5mnew_hezi.jpg");
+//            imageList.add(0,"https://img.dangao.com/proimgs/C-777105desB2.jpg");
+//            imageList.add(1,"https://www.dangao.com/Tpl/2016skin/Public/images/5mnew_baozhang.jpg");
+//            imageList.add(2,"https://www.dangao.com/Tpl/2016skin/Public/images/5mnew_hezi.jpg");
+            Imagelist imagelist1 = imagelistService.findById(id);
+            if (imagelist1.getImagelist() != null){
+                imageList.add(imagelist1.getImagelist());
+            }
+            if (imagelist1.getImagelist1() != null){
+                imageList.add(imagelist1.getImagelist1());
+            }
+            if (imagelist1.getImagelist2() != null){
+                imageList.add(imagelist1.getImagelist2());
+            }
+            if (imagelist1.getImagelist3() != null){
+                imageList.add(imagelist1.getImagelist3());
+            }
+            if (imagelist1.getImagelist4() != null){
+                imageList.add(imagelist1.getImagelist4());
+            }
+            if (imagelist1.getImagelist5() != null){
+                imageList.add(imagelist1.getImagelist5());
+            }
+            if (imagelist1.getImagelist6() != null){
+                imageList.add(imagelist1.getImagelist6());
+            }
+
 
             map.put("list",imageList);
             detailImage.add(0,map);
@@ -60,10 +96,25 @@ public class DetailController {
 
 
 //           itemInfo
-           topImages.add(0,"https://img.dangao.com/proimgs/C-777205minfo1.jpg");
-           topImages.add(0,"https://img.dangao.com/proimgs/C-777205minfo2.jpg");
-           topImages.add(0,"https://img.dangao.com/proimgs/C-777205minfo3.jpg");
+            TopImages topImages1 = topImagesService.findById(id);
+            if (topImages1.getTopimages()!=null){
+               topImages.add(topImages1.getTopimages());
+            }
+            if (topImages1.getTopimages1()!=null){
+                topImages.add(topImages1.getTopimages1());
+            }
+            if (topImages1.getTopimages2()!=null){
+                topImages.add(topImages1.getTopimages2());
+            }
+            if (topImages1.getTopimages3()!=null){
+                topImages.add(topImages1.getTopimages3());
+            }  if (topImages1.getTopimages4()!=null){
+                topImages.add(topImages1.getTopimages4());
+            }  if (topImages1.getTopimages5()!=null){
+                topImages.add(topImages1.getTopimages5());
+            }
            itemInfo.put("topImages",topImages);
+
            Iteminfo  iteminfos =  iteminfoService.selectByid(iid);
            itemInfo.put("title", iteminfos.getTitle());
            itemInfo.put("subtitle",iteminfos.getSubtitle());
@@ -141,93 +192,6 @@ public class DetailController {
             jsonObject.put("iid","001");
         }
 
-//        if (iid.equals("002")){
-//
-////            dataInfo
-//            imageList.add(0,"https://img.dangao.com/proimgs/C-777105desB2.jpg");
-//            imageList.add(1,"https://www.dangao.com/Tpl/2016skin/Public/images/5mnew_baozhang.jpg");
-//            imageList.add(2,"https://www.dangao.com/Tpl/2016skin/Public/images/5mnew_hezi.jpg");
-//            map.put("list",imageList);
-//            list.add(0,map);
-//            detailImage.add(list);
-//            detailInfo.put("detailImage",detailImage);
-//
-//
-//
-////           itemInfo
-//            topImages.add(0,"https://img.dangao.com/proimgs/C-7210064201.jpg");
-//            topImages.add(0,"https://img.dangao.com/proimgs/C-7210064202.jpg");
-//            topImages.add(0,"https://img.dangao.com/proimgs/C-7210064203.jpg");
-//            itemInfo.put("topImages",topImages);
-//            itemInfo.put("title","女神小七  编号：721006");
-//            itemInfo.put("subtitle","对你的爱，远不止这些");
-//            itemInfo.put("desc","不论你何时到来都热情迎接， 这个城市或许就不再那么陌生。");
-//            itemInfo.put("price","¥199.00 ~ ¥389.00 ");
-//            itemInfo.put("oldPrice","¥188.00 ");
-//            itemInfo.put("discountDesc","新款");
-//
-//
-//            // columns
-//            columns.add(0,"已售489件");
-//            columns.add(1,"全国配送顺丰速递");
-//            columns.add(2,"配保温袋保温箱");
-//
-//
-//            // itemParam
-//            // tables
-//            ArrayList<Object> tables1 = new ArrayList<>();
-//
-//
-//
-//            ArrayList<Object> tables1List = new ArrayList<>();
-//            tables1List.add(0,"材料:");
-//            tables1List.add(1,"新鲜优质淡奶油、新鲜玫瑰花瓣围边");
-//
-//            ArrayList<Object> tables1List1 = new ArrayList<>();
-//            tables1List1.add(0,"祝愿:");
-//            tables1List1.add(1,"就这样牵着你的手，十指相扣走过春秋，幸福快乐长长久久。");
-//
-//            ArrayList<Object> tables1List2 = new ArrayList<>();
-//            tables1List2.add(0,"保存:");
-//            tables1List2.add(1,"0-4°C保存1天，4小时内5°C食用口感最佳。");
-//
-//            tables1.add(0,tables1List);
-//            tables1.add(1,tables1List1);
-//            tables1.add(2,tables1List2);
-//
-//            tables.add(0,tables1);
-//
-//            rule.put("tables",tables);
-//            itemParams.put("rule",rule);
-//
-//
-//            // rate
-//
-//
-//            // rateMap
-//            HashMap<Object, Object> rateMap = new HashMap<>();
-//            rateMap.put("avatar","//s3.mogucdn.com/p2/161214/103488673_8ff131b8g07810e345268cgcda6ef_140x141.png");
-//            rateMap.put("uname","强爷");
-//            rateMap.put("created",1602185460);
-//            rateMap.put("content","在线征婚");
-//            rateList.add(0,rateMap);
-//            rate.put("list",rateList);
-//
-//            // rateMap1
-//            HashMap<Object, Object> rateMap1 = new HashMap<>();
-//            rateMap1.put("avatar","//s5.mogucdn.com/p2/161214/103488673_8da6lhkf9a5h32ei6bd297523c35d_140x140.png");
-//            rateMap1.put("uname","SeaSvan");
-//            rateMap1.put("created",1602148380);
-//            rateMap1.put("content","蛋糕很好吃，下次还会继续回购。");
-//            rateList.add(1,rateMap1);
-//            rate.put("list",rateList);
-//
-//
-//
-//
-//            jsonObject.put("iid","002");
-//        }
-        // result
         else if (iid.equals("002")){
 
 //            dataInfo
@@ -544,8 +508,6 @@ public class DetailController {
 
         }
 
-
-        // result
 
         result.put("itemParams",itemParams);
         result.put("rate",rate);

@@ -22,6 +22,22 @@
 
     <dependencies>
 
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.16</version>
+            <scope>provided</scope>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-validation</artifactId>
@@ -43,6 +59,13 @@
 <!--            <version>2.9.2</version>-->
 <!--        </dependency>-->
 <!--        生成api文档-->
+
+        <!-- 阿里云短信 SDK for Java -->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+            <version>4.4.6</version>
+        </dependency>
         <dependency>
             <groupId>io.github.yedaxia</groupId>
             <artifactId>japidocs</artifactId>
@@ -94,11 +117,13 @@
             <version>23.0</version>
         </dependency>
         <!--MySQL JDBC驱动-->
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
+            <version>6.0.6</version>
         </dependency>
+
         <!--MyBatis 及 插件依赖-->
         <dependency>
             <groupId>org.mybatis</groupId>
