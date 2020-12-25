@@ -13,6 +13,7 @@ import java.util.List;
 /**
 * Created by CodeGenerator on 2020/12/16.
 */
+@CrossOrigin
 @RestController
 @RequestMapping("/iteminfo")
 public class IteminfoController {

@@ -9,7 +9,7 @@
     <result column="title" jdbcType="VARCHAR" property="title" />
     <result column="subtitle" jdbcType="VARCHAR" property="subtitle" />
     <result column="descr" jdbcType="VARCHAR" property="descr" />
-    <result column="price" jdbcType="DECIMAL" property="price" />
+    <result column="price" jdbcType="VARCHAR" property="price" />
     <result column="oldPrice" jdbcType="DECIMAL" property="oldprice" />
     <result column="discountDesc" jdbcType="VARCHAR" property="discountdesc" />
   </resultMap>

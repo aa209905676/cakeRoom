@@ -4,27 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d55b79a-9d7c-4053-8b6c-abecb39b9dbd" name="Default Changelist" comment="homeData数据库">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="1d55b79a-9d7c-4053-8b6c-abecb39b9dbd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-api-project-seed.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-api-project-seed.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/project/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/Bean/Iteminfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/project/Bean/Iteminfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/Bean/User.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/controller/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/project/controller/DataController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/controller/DetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/project/controller/DetailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/project/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/controller/IteminfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/project/controller/IteminfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/controller/Recommend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/project/controller/Recommend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/dao/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/project/service/impl/UserServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/IteminfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/IteminfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/project/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/project/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/project/Bean/Iteminfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/project/Bean/Iteminfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/project/Bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/project/Bean/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/project/controller/DataController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/project/controller/DataController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/project/controller/DetailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/project/controller/DetailController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/project/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/project/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/project/controller/IteminfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/project/controller/IteminfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/project/controller/Recommend.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/project/controller/Recommend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/project/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/project/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/project/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/project/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/project/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/project/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/IteminfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/IteminfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring-boot-api-project-seed-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-api-project-seed-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-api-project-seed-1.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/spring-boot-api-project-seed-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-boot-api-project-seed-1.0.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CodeGenerator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +51,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,6 +76,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mongo&#10;mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -77,7 +96,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
@@ -88,15 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,6 +154,7 @@
       <workItem from="1607828719874" duration="61222000" />
       <workItem from="1608092179142" duration="5307000" />
       <workItem from="1608125816716" duration="22372000" />
+      <workItem from="1608469372816" duration="33832000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1608209355954</created>
@@ -172,70 +190,94 @@
     <option name="LAST_COMMIT_MESSAGE" value="homeData数据库" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="218" y="29" width="816" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608470175140">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="218" y="29" width="816" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1608470175140" />
     <state x="406" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608204940792">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="406" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1608204940792" />
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1608386465796">
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1608639821993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1608386465796" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608385210094">
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1608639821993" />
+    <state x="459" y="231" width="450" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608639710078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608385210094" />
+    <state x="459" y="231" width="450" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1608639710078" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608453009764">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608453009764" />
     <state x="177" y="0" key="CommitChangelistDialog2" timestamp="1608387630101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="177" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1608387630101" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1608447192654">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1608447192654" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1608209085333">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608209085333" />
-    <state width="1323" height="166" key="GridCell.Tab.0.bottom" timestamp="1608387630298">
+    <state width="1323" height="147" key="GridCell.Tab.0.bottom" timestamp="1608872926785">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="166" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608387630298" />
-    <state width="1323" height="166" key="GridCell.Tab.0.center" timestamp="1608387630298">
+    <state width="1323" height="147" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608872926785" />
+    <state width="1323" height="147" key="GridCell.Tab.0.center" timestamp="1608872926784">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="166" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608387630298" />
-    <state width="1323" height="166" key="GridCell.Tab.0.left" timestamp="1608387630297">
+    <state width="1323" height="147" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608872926784" />
+    <state width="1323" height="147" key="GridCell.Tab.0.left" timestamp="1608872926784">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="166" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608387630297" />
-    <state width="1323" height="166" key="GridCell.Tab.0.right" timestamp="1608387630298">
+    <state width="1323" height="147" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608872926784" />
+    <state width="1323" height="147" key="GridCell.Tab.0.right" timestamp="1608872926784">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="166" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608387630298" />
-    <state width="1323" height="166" key="GridCell.Tab.1.bottom" timestamp="1608387630298">
+    <state width="1323" height="147" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608872926784" />
+    <state width="1323" height="352" key="GridCell.Tab.1.bottom" timestamp="1608872300212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="166" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608387630298" />
-    <state width="1323" height="166" key="GridCell.Tab.1.center" timestamp="1608387630298">
+    <state width="1323" height="352" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608872300212" />
+    <state width="1323" height="352" key="GridCell.Tab.1.center" timestamp="1608872300212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="166" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1608387630298" />
-    <state width="1323" height="166" key="GridCell.Tab.1.left" timestamp="1608387630298">
+    <state width="1323" height="352" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1608872300212" />
+    <state width="1323" height="352" key="GridCell.Tab.1.left" timestamp="1608872300211">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="166" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1608387630298" />
-    <state width="1323" height="166" key="GridCell.Tab.1.right" timestamp="1608387630298">
+    <state width="1323" height="352" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1608872300211" />
+    <state width="1323" height="352" key="GridCell.Tab.1.right" timestamp="1608872300212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="166" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1608387630298" />
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1608187727592">
+    <state width="1323" height="352" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1608872300212" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1608540828147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1608187727592" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1608281825146">
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1608540828147" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1608539419797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608281825146" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1608387651115">
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608539419797" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1608882102174">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608387651115" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1608882102174" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1608447192654">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1608447192654" />
+    <state x="-22" y="88" width="1182" height="540" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608469242397">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="-22" y="88" width="1182" height="540" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1608469242397" />
+    <state x="453" y="171" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608554424879">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="453" y="171" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1608554424879" />
     <state x="222" y="87" width="921" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1608204686681">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -244,10 +286,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="459" y="120" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1608367493409" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1608038329254">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1608646014103">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1608038329254" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1608646014103" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1608543003162">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1608543003162" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

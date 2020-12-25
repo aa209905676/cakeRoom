@@ -12,7 +12,7 @@ public class Iteminfo {
 
     private String descr;
 
-    private Long price;
+    private String  price;
 
     @Column(name = "oldPrice")
     private Long oldprice;
@@ -79,14 +79,11 @@ public class Iteminfo {
     /**
      * @return price
      */
-    public Long getPrice() {
+    public String  getPrice() {
         return price;
     }
 
-    /**
-     * @param price
-     */
-    public void setPrice(Long price) {
+    public void setPrice(String price) {
         this.price = price;
     }
 

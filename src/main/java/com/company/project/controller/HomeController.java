@@ -2,11 +2,9 @@ package com.company.project.controller;
 import com.alibaba.fastjson.JSONObject;
 import com.company.project.core.Result;
 import com.company.project.core.ResultGenerator;
-import com.company.project.Bean.User;
 import com.company.project.Bean.banner;
 import com.company.project.Bean.context;
 import com.company.project.Bean.recommend;
-import com.company.project.service.UserService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.web.bind.annotation.*;
@@ -20,8 +18,7 @@ import java.util.*;
 @RestController
 @CrossOrigin
 public class HomeController {
-    @Resource
-    private UserService userService;
+
     banner banner1=   new banner();
     context context1 =   new context();
     recommend recommend1 =   new recommend();
@@ -43,7 +40,7 @@ public class HomeController {
         map1.put("acm", "3.mce.2_10_1jhwa.43542.0.ccy5br4OlfK0Q.pos_0-m_454801-sd_119");
         map1.put("height", 390);
         map1.put("height923", 390);
-        map1.put("image", "https://jihu-file.oss-cn-hongkong.aliyuncs.com/cake/0c4a0aaf9f6c0ca6ff3873eebdf2b7f.png");
+        map1.put("image", "https://jihu-file.oss-cn-hongkong.aliyuncs.com/cake/699d3c93f8d3fc0c12fa847b7c30982.png");
         map1.put("image923", "https://s10.mogucdn.com/mlcdn/c45406/180926_7d5c521e0aa3h38786lkakebkjlh8_750x390.jpg");
         map1.put("link", "http://www.rabbitbake.com/portfolio/fruit-tart");
         map1.put("title", "焕新女装节");
@@ -56,7 +53,7 @@ public class HomeController {
         map2.put("acm", "3.mce.2_10_1jhwa.43542.0.ccy5br4OlfK0Q.pos_0-m_454801-sd_119");
         map2.put("height", 390);
         map2.put("height923", 390);
-        map2.put("image", "https://jihu-file.oss-cn-hongkong.aliyuncs.com/cake/49206e2218a6a4b85608a7192742757.png");
+        map2.put("image", "https://jihu-file.oss-cn-hongkong.aliyuncs.com/cake/88adbe82e3c39ca7e75db8af9050d47.jpg");
         map2.put("image923", "https://s10.mogucdn.com/mlcdn/c45406/180926_7d5c521e0aa3h38786lkakebkjlh8_750x390.jpg");
         map2.put("link", "http://www.rabbitbake.com/portfolio/fruit-tart");
         map2.put("title", "焕新女装节");
@@ -69,7 +66,7 @@ public class HomeController {
         map3.put("acm", "3.mce.2_10_1jhwa.43542.0.ccy5br4OlfK0Q.pos_0-m_454801-sd_119");
         map3.put("height", 390);
         map3.put("height923", 390);
-        map3.put("image", "https://jihu-file.oss-cn-hongkong.aliyuncs.com/cake/60c5ea81f8871b2dffa40a9ebb11489.png");
+        map3.put("image", "https://jihu-file.oss-cn-hongkong.aliyuncs.com/cake/bce400837313e3d6c1854c76c1d8fb0.png");
         map3.put("image923", "https://s10.mogucdn.com/mlcdn/c45406/180926_7d5c521e0aa3h38786lkakebkjlh8_750x390.jpg");
         map3.put("link", "http://www.rabbitbake.com/portfolio/fruit-tart");
         map3.put("title", "焕新女装节");
@@ -80,7 +77,7 @@ public class HomeController {
         map4.put("acm", "4.mce.2_10_1jhwa.44542.0.ccy5br4OlfK0Q.pos_0-m_454801-sd_119");
         map4.put("height", 490);
         map4.put("height924", 490);
-        map4.put("image", "https://jihu-file.oss-cn-hongkong.aliyuncs.com/cake/a140871a3264aa0553b24194eae67cc.png");
+        map4.put("image", "https://jihu-file.oss-cn-hongkong.aliyuncs.com/cake/dcacd0e42c04628e443035fd26366a4.png");
         map4.put("image924", "https://s10.mogucdn.com/mlcdn/c45406/180926_7d5c521e0aa4h48786lkakebkjlh8_750x490.jpg");
         map4.put("link", "http://www.rabbitbake.com/portfolio/fruit-tart");
         map4.put("title", "焕新女装节");
@@ -229,35 +226,4 @@ public class HomeController {
 
     }
 
-    @PostMapping("/add")
-    public Result add(User user) {
-        userService.save(user);
-        return ResultGenerator.genSuccessResult();
-    }
-
-    @PostMapping("/delete")
-    public Result delete(@RequestParam Integer id) {
-        userService.deleteById(id);
-        return ResultGenerator.genSuccessResult();
-    }
-
-    @PostMapping("/update")
-    public Result update(User user) {
-        userService.update(user);
-        return ResultGenerator.genSuccessResult();
-    }
-
-    @PostMapping("/detail")
-    public Result detail(@RequestParam Integer id) {
-        User user = userService.findById(id);
-        return ResultGenerator.genSuccessResult(user);
-    }
-
-    @PostMapping("/list")
-    public Result list(@RequestParam(defaultValue = "0") Integer page, @RequestParam(defaultValue = "0") Integer size) {
-        PageHelper.startPage(page, size);
-        List<User> list = userService.findAll();
-        PageInfo pageInfo = new PageInfo(list);
-        return ResultGenerator.genSuccessResult(pageInfo);
-    }
 }

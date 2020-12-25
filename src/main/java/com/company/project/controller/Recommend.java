@@ -27,6 +27,7 @@ public class Recommend {
         listMap.put("image","https://img.dangao.com/proimgs/C-777205minfo1.jpg");
         listMap.put("title","玫瑰色恋人 编号：777205");
         listMap.put("cfav","163");
+        listMap.put("iid","001");
         listMap.put("price","169.00");
         list.add(0,listMap);
 
@@ -42,20 +43,25 @@ public class Recommend {
         HashMap<Object, Object> listMap2 = new HashMap<>();
         listMap2.put("image","https://img.dangao.com/proimgs/701736175228.jpg");
         listMap2.put("title","蘑菇精灵 编号：777231");
-        listMap.put("cfav","163");
-        listMap.put("price","169.00");
+        listMap2.put("cfav","163");
+        listMap2.put("price","169.00");
+
         list.add(2,listMap2);
 
         // Listmap3
         HashMap<Object, Object> listMap3 = new HashMap<>();
         listMap3.put("image","https://img.dangao.com/proimgs/701018175228.png");
         listMap3.put("title","粉红宝贝  编号：701018");
+        listMap3.put("cfav","159");
+        listMap3.put("price","156.00");
         list.add(3,listMap3);
 
         // Listmap3
         HashMap<Object, Object> listMap4 = new HashMap<>();
         listMap4.put("image","https://img.dangao.com/proimgs/702002175228.jpg");
         listMap4.put("title","魔法森林  编号：702002");
+        listMap4.put("cfav","369");
+        listMap4.put("price","159.00");
         list.add(4,listMap4);
 
 
@@ -63,30 +69,42 @@ public class Recommend {
         HashMap<Object, Object> listMap5 = new HashMap<>();
         listMap5.put("image","https://img.dangao.com/proimgs/702001175228.jpg");
         listMap5.put("title","Mr.Right  编号：702001");
+        listMap5.put("cfav","355");
+        listMap5.put("price","199.00");
         list.add(5,listMap5);
         
         // Listmap6
         HashMap<Object, Object> listMap6 = new HashMap<>();
         listMap6.put("image","https://img.dangao.com/proimgs/701650175228.png");
         listMap6.put("title","花漾  编号：701650");
+        listMap6.put("cfav","323");
+        listMap6.put("iid","021");
+        listMap6.put("price","299.00");
         list.add(6,listMap6);
         
         // Listmap7
         HashMap<Object, Object> listMap7 = new HashMap<>();
         listMap7.put("image","https://img.dangao.com/proimgs/777319175228.jpg");
         listMap7.put("title","小王子  编号：777319");
+        listMap7.put("cfav","256");
+        listMap6.put("iid","023");
+        listMap7.put("price","279.00");
         list.add(7,listMap7);
         
         // Listmap8
         HashMap<Object, Object> listMap8 = new HashMap<>();
         listMap8.put("image","https://img.dangao.com/proimgs/701101175228.png");
         listMap8.put("title","幸福不灭  编号：701101");
+        listMap8.put("cfav","183");
+        listMap8.put("price","259.00");
         list.add(8,listMap8);
         
         // Listmap9
         HashMap<Object, Object> listMap9 = new HashMap<>();
         listMap9.put("image","https://img.dangao.com/proimgs/777310175228.jpg");
         listMap9.put("title","奥利奥芝士  编号：777310");
+        listMap9.put("cfav","256");
+        listMap9.put("price","139.00");
         list.add(9,listMap9);
 
 
